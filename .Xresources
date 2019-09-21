@@ -1,0 +1,26 @@
+! pretty colors~
+
+! kinda black
+URxvt.background: #0c0d0e
+
+! gray-t!
+! URxvt.foreground: #b7b8b9
+
+! pretty blue
+! URxvt.foreground: #3182bd
+
+! even lighter blue
+URxvt.foreground: #80b1d3
+
+!! dont forget to xrdb ./.Xresources to update changes
+
+
+
+! no stupid gross scrollbar...
+URxvt.scrollBar: false
+
+! blinky
+URxvt.cursorBlink: true
+
+
+! 
