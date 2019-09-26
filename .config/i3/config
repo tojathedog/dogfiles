@@ -39,6 +39,9 @@ exec --no-startup-id dunst
 # blurrylock!
 bindsym Mod4+l exec /home/toj/bin/blurrylock
 
+# easy volume changing with pasystray
+exec --no-startup-id /usr/bin/pasystray
+
 
 # ======= default stuff
 
