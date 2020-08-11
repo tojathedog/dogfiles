@@ -12,10 +12,10 @@ workspace_layout tabbed
 # feh bg
 # run feh --bg-scale /path/to/file
 # then this will put it back
-exec --no-startup-id /home/toj/.fehbg
+exec --no-startup-id ~/.fehbg
 
 # screenshots
-bindsym --release Print exec maim -s /home/toj/downloads/screenshot-$(date "+%m-%d-%Y-%I-%M-%S-%p").png
+bindsym --release Print exec maim -s ~/downloads/screenshot-$(date "+%m-%d-%Y-%I-%M-%S-%p").png
 
 # volume stuff
 # speakers
@@ -49,7 +49,7 @@ bindsym $mod+Shift+Home exec pactl set-sink-mute 2 toggle
 exec --no-startup-id dunst
 
 # blurrylock!
-bindsym Mod4+l exec /home/toj/bin/blurrylock
+bindsym Mod4+l exec ~/bin/blurrylock
 
 # easy volume changing with pasystray
 exec --no-startup-id /usr/bin/pasystray
