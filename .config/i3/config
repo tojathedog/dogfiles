@@ -17,6 +17,10 @@ exec --no-startup-id ~/.fehbg
 # screenshots
 bindsym --release Print exec maim -s ~/downloads/screenshot-$(date "+%m-%d-%Y-%I-%M-%S-%p").png
 
+# scratchpad
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus scratchpad show
+
 # volume stuff
 # speakers
 #bindsym $mod+Next exec pactl set-sink-volume 1 -10%
