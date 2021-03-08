@@ -1,2 +1,2 @@
-# dotfiles
+# dogfiles
 toejam's dotfiles
