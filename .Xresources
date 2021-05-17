@@ -10,8 +10,13 @@ URxvt.background: #0c0d0e
 ! URxvt.foreground: #3182bd
 
 ! even lighter blue
-URxvt.foreground: #80b1d3
+! URxvt.foreground: #80b1d3
 
+! white
+URxvt.foreground: #FFFFFF
+!!URxvt.font: xft::size=14
+!!URxvt.font: -misc-fixed-medium-r-normal--15-140-75-75-c-90-iso8859-1
+URxvt.font: xft:dejavusansmono:size=14
 !! dont forget to xrdb ./.Xresources to update changes
 
 
