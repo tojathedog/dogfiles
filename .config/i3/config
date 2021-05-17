@@ -10,8 +10,8 @@ hide_edge_borders both
 workspace_layout tabbed
 
 # atsui multimonitor setup
-bindsym --release $mod+Super+Shift+1 exec /home/toj/bin/laptopscreen.sh
-bindsym --release $mod+Super+Shift+2 exec /home/toj/bin/homedesk.sh
+bindsym --release $mod+Super+Shift+1 exec ~/bin/laptopscreen.sh
+bindsym --release $mod+Super+Shift+2 exec ~/bin/homedesk.sh
 
 
 # feh bg
