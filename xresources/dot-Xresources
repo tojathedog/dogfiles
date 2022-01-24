@@ -1,0 +1,25 @@
+! mostly text colors and fonts for urxvt
+!! dont forget to xrdb ./.Xresources to update changes
+
+!! font colors
+! kinda black bg
+URxvt.background: #0c0d0e
+! gray-t! text
+! URxvt.foreground: #b7b8b9
+! blue text
+! URxvt.foreground: #3182bd
+! even lighter blue text
+! URxvt.foreground: #80b1d3
+! white text
+URxvt.foreground: #FFFFFF
+
+!! fonts
+URxvt.font: xft:dejavusansmono:size=14
+
+
+!! other urxvt settings
+! no scrollbar
+URxvt.scrollBar: false
+
+! blink blinky blink blink
+URxvt.cursorBlink: true

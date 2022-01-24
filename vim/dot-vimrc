@@ -1,0 +1,11 @@
+" syntax highlighting on
+syntax enable
+
+" better autocomplete 
+set wildmenu
+
+" always display status line
+set laststatus=2
+
+" more room for commands
+set cmdheight=2

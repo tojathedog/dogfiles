@@ -1,4 +1,14 @@
 # toejam's changes
+# package dependencies for some bindings:
+# - maim
+# - feh
+# - pulseaudio
+# - rofi
+# - pasystray
+# - bin folder in this repo
+# - dunst
+# - i3blocks (but not for long, probably going back to i3status)
+# - brightnessctl (set for intel backlight)
 
 set $mod Mod1
 
